@@ -1,0 +1,62 @@
+<scene version='3.0.0'>
+    <default name="spp" value="256"/>
+    <default name="res" value="256"/>
+
+    <integrator type='direct'/>
+
+    <sensor type="perspective" id="sensor">
+        <transform name="to_world">
+            <lookat target="0.0, 0.0, 1.25"
+                    origin="0.0, -12.0, 5.0"
+                    up    ="0.0, 0.0, 1.0"/>
+        </transform>
+        <sampler type="independent">
+            <integer name="sample_count" value="$spp"/>
+        </sampler>
+        <film type="hdrfilm">
+            <rfilter type="gaussian"/>
+            <integer name="width"  value="$res"/>
+            <integer name="height" value="$res"/>
+        </film>
+    </sensor>
+
+    <shape type="ply" id="bunny">
+        <string name="filename" value="meshes/bunny.ply"/>
+        <transform name="to_world">
+            <scale value="25"/>
+            <rotate x="1" angle="90"/>
+        </transform>
+        <bsdf type="diffuse">
+            <spectrum name="reflectance" type="irregular">
+                <string name="wavelengths" value="380, 390, 400,
+                    410, 420, 430, 440, 450, 
+                    460, 470, 480, 490, 500, 
+                    510, 520, 530, 540, 550, 
+                    560, 570, 580, 590, 600, 
+                    610, 620, 630, 640, 650, 
+                    660, 670, 680, 690, 700, 
+                    710, 720, 730 740, 750, 
+                    760, 770, 780"/>
+                <string name="values" value="0.209079, 0.195551, 0.1577, 
+                    0.124283, 0.101556, 0.0891705, 0.081567, 0.0776661,
+                    0.0808886, 0.0938864, 0.130556, 0.213608, 0.372238,
+                    0.560675, 0.705601, 0.770878, 0.783552, 0.772282,
+                    0.753831, 0.726501, 0.694471, 0.669333, 0.649552, 
+                    0.637142, 0.633506, 0.640739, 0.6524, 0.665347,
+                    0.664089, 0.650972, 0.650431, 0.675475, 0.719538,
+                    0.764665, 0.796259, 0.827297, 0.84693, 0.865471,
+                    0.876217, 0.885346, 0.895847"/>
+            </spectrum>
+        </bsdf>
+    </shape>
+
+    <emitter type="point" id="light1">
+        <point name="position" x="3" y="-10.0" z="6.0"/>
+        <rgb name="intensity" value="300.0"/>
+    </emitter>
+
+    <emitter type="point" id="light2">
+        <point name="position" x="-3" y="-10.0" z="-2.0"/>
+        <rgb name="intensity" value="300.0"/>
+    </emitter>
+</scene>
