@@ -27,17 +27,19 @@
             <rotate x="1" angle="90"/>
         </transform>
         <bsdf type="diffuse">
-            <rgb name="reflectance" value="0.5 0.5 0.9"/>
+            <spectrum name="reflectance" type="srgb">
+                <rgb name="color" value="0.5 0.5 0.9"/>
+            </spectrum>
         </bsdf>
     </shape>
 
     <emitter type="point" id="light1">
         <point name="position" x="3" y="-10.0" z="6.0"/>
-        <rgb name="intensity" value="100.0"/>
+        <rgb name="intensity" value="300.0"/>
     </emitter>
 
     <emitter type="point" id="light2">
         <point name="position" x="-3" y="-10.0" z="-2.0"/>
-        <rgb name="intensity" value="100.0"/>
+        <rgb name="intensity" value="300.0"/>
     </emitter>
 </scene>
