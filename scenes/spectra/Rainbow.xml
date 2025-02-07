@@ -1,0 +1,245 @@
+ART measurement archive version 1.1
+
+Archive content: pure rainbow spectra
+Archive copyright: Copyright (c) 1996-2020 The ART Development Team. For a comprehensive list of the members of the development team, and a description of their respective contributions, see the file "ART_DeveloperList.txt" that is distributed with the libraries.
+Archive license: This file is part of the Advanced Rendering Toolkit (ART) libraries. ART is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. ART is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with ART.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+<!-- Entry ID:   red
+---------------------------------------------------------------------------
+Description           :  red rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   orange
+---------------------------------------------------------------------------
+Description           :  orange rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   yellow
+---------------------------------------------------------------------------
+Description           :  yellow rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   green
+---------------------------------------------------------------------------
+Description           :  green rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   cyan
+---------------------------------------------------------------------------
+Description           :  cyan rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   blue
+---------------------------------------------------------------------------
+Description           :  blue rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.0,0.0,0.0,0.0,1.0,1.1,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   violet
+---------------------------------------------------------------------------
+Description           :  violet rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   pink
+---------------------------------------------------------------------------
+Description           :  pink rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   red0975
+---------------------------------------------------------------------------
+Description           :  almost perfect red rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   orange0975
+---------------------------------------------------------------------------
+Description           :  almost perfect orange rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.0"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   yellow0975
+---------------------------------------------------------------------------
+Description           :  almost perfect yellow rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   green0975
+---------------------------------------------------------------------------
+Description           :  almost perfect green rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   cyan0975
+---------------------------------------------------------------------------
+Description           :  almost perfect cyan rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   blue0975
+---------------------------------------------------------------------------
+Description           :  almost perfect blue rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.025,0.025,0.025,0.025,0.975,1.1,0.975,0.025,0.025,0.025,0.025,0.025,0.975,0.975,0.975,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   violet0975
+---------------------------------------------------------------------------
+Description           :  almost perfect violet rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025"/>
+</spectrum>
+
+
+
+<!-- Entry ID:   pink0975
+---------------------------------------------------------------------------
+Description           :  almost perfect pink rainbow spectrum 
+Type                  :  reflectance spectrum
+Fluorescence data     :  no
+Measurement device    :  
+Measured by           :  
+Measurement date      :  -->
+<spectrum name="reflectance" type="irregular">
+	<string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790"/>
+	<string name="values" value="0.975,0.975,0.975,0.975,0.975,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.025,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975,0.975"/>
+</spectrum>
