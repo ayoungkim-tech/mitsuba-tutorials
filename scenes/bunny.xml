@@ -26,23 +26,20 @@
             <scale value="25"/>
             <rotate x="1" angle="90"/>
         </transform>
-        <bsdf type="roughdielectric">
-            <float name="alpha" value="0.7"/>
-            <string name="int_ior" value="acrylic glass"/>
-            <string name="ext_ior" value="air"/>
-            <spectrum name="specular_reflectance" type="srgb">
-                <rgb name="color" value="0.7 0.7 0.3"/>
-            </spectrum>
+        <bsdf type="roughconductor">
+            <string name="material" value="Au"/>
+            <float name="alpha_u" value="0.2"/>
+            <float name="alpha_v" value="0.5"/>
         </bsdf>
     </shape>
 
     <emitter type="point" id="light1">
         <point name="position" x="3" y="-10.0" z="6.0"/>
-        <rgb name="intensity" value="3000.0"/>
+        <rgb name="intensity" value="1000.0"/>
     </emitter>
 
     <emitter type="point" id="light2">
         <point name="position" x="-3" y="-10.0" z="-2.0"/>
-        <rgb name="intensity" value="3000.0"/>
+        <rgb name="intensity" value="1000.0"/>
     </emitter>
 </scene>
