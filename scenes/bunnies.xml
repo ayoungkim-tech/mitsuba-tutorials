@@ -1,0 +1,66 @@
+<scene version='3.0.0'>
+    <default name="spp" value="256"/>
+    <default name="res" value="256"/>
+
+    <integrator type='direct'/>
+
+    <sensor type="perspective" id="sensor">
+        <transform name="to_world">
+            <lookat target="0.0, 0.0, 1.25"
+                    origin="0.0, -12.0, 5.0"
+                    up    ="0.0, 0.0, 1.0"/>
+        </transform>
+        <sampler type="independent">
+            <integer name="sample_count" value="$spp"/>
+        </sampler>
+        <film type="hdrfilm">
+            <rfilter type="gaussian"/>
+            <integer name="width"  value="$res"/>
+            <integer name="height" value="$res"/>
+        </film>
+    </sensor>
+
+    <shape type="shapegroup" id="geo_group">
+        <shape type="ply" id="bunny_left">
+            <string name="filename" value="meshes/bunny.ply"/>
+            <transform name="to_world">
+                <scale value="20"/>
+                <rotate x="1" angle="90"/>
+                <translate x="-1.8"/>
+            </transform>
+            <bsdf type="roughconductor">
+                <string name="material" value="Au"/>
+                <float name="alpha_u" value="0.2"/>
+                <float name="alpha_v" value="0.5"/>
+            </bsdf>
+        </shape>
+        <shape type="ply" id="bunny_right">
+            <string name="filename" value="meshes/bunny.ply"/>
+            <transform name="to_world">
+                <scale value="20"/>
+                <rotate x="1" angle="90"/>
+                <translate x="1.4"/>
+            </transform>
+            <bsdf type="diffuse">
+                <spectrum name="reflectance" type="irregular">
+                    <string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730"/>
+                    <string name="values" value="0.0606, 0.0810, 0.0982, 0.1039, 0.1034, 0.1020, 0.1009, 0.1016, 0.1079, 0.1229, 0.1440, 0.1624, 0.1760, 0.1887, 0.2105, 0.2477, 0.3127, 0.3988, 0.4764, 0.5268, 0.5764, 0.6372, 0.6687, 0.6784, 0.6861, 0.6983, 0.7170, 0.7354, 0.7491, 0.7530, 0.7491, 0.7461, 0.7505, 0.7636, 0.7790, 0.7980"/>
+                </spectrum>
+            </bsdf>
+        </shape>
+    </shape>
+
+    <shape type="instance">
+        <ref id="geo_group"/>
+    </shape>
+
+    <emitter type="point" id="light1">
+        <point name="position" x="3" y="-10.0" z="6.0"/>
+        <rgb name="intensity" value="1000.0"/>
+    </emitter>
+
+    <emitter type="point" id="light2">
+        <point name="position" x="-3" y="-10.0" z="-2.0"/>
+        <rgb name="intensity" value="1000.0"/>
+    </emitter>
+</scene>
