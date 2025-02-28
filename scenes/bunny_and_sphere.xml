@@ -20,7 +20,7 @@
         </film>
     </sensor>
 
-    <shape type="shapegroup" id="bunny_group">
+    <shape type="shapegroup" id="geo_group">
         <shape type="ply" id="bunny">
             <string name="filename" value="meshes/bunny.ply"/>
             <transform name="to_world">
@@ -46,7 +46,7 @@
     </shape>
 
     <shape type="instance">
-        <ref id="bunny_group"/>
+        <ref id="geo_group"/>
     </shape>
 
     <emitter type="point" id="light1">
