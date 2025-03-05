@@ -20,42 +20,50 @@
         </film>
     </sensor>
 
-    <shape type="shapegroup" id="geo_group">
-        <shape type="ply" id="bunny">
-            <string name="filename" value="meshes/bunny.ply"/>
-            <transform name="to_world">
-                <scale value="20"/>
-                <rotate x="1" angle="90"/>
-                <translate x="-2"/>
-            </transform>
-            <bsdf type="roughconductor">
-                <string name="material" value="Au"/>
-                <float name="alpha_u" value="0.2"/>
-                <float name="alpha_v" value="0.5"/>
-            </bsdf>
-        </shape>
-        <shape type="sphere">
-            <transform name="to_world">
-                <scale value="0.5"/>
-                <translate x="-0.1"/>
-                <translate y="1"/>
-                <scale value="5"/>
-            </transform>
-            <bsdf type="diffuse"/>
-        </shape>
+    <bsdf type="roughconductor" id="material1">
+            <string name="material" value="Au"/>
+            <float name="alpha_u" value="0.2"/>
+            <float name="alpha_v" value="0.5"/>
+            <spectrum name="specular_reflectance" type="irregular" id="MACBETH_SG_L6">
+                <string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730"/>
+	            <string name="values" value="0.0218, 0.0205, 0.0203, 0.0201, 0.0199, 0.0200, 0.0202, 0.0207, 0.0213, 0.0220, 0.0234, 0.0257, 0.0306, 0.0479, 0.0813, 0.1053, 0.1179, 0.1365, 0.1812, 0.2702, 0.3952, 0.5323, 0.6550, 0.7416, 0.7887, 0.8099, 0.8215, 0.8285, 0.8345, 0.8342, 0.8367, 0.8424, 0.8490, 0.8558, 0.8599, 0.8648"/>
+            </spectrum>
+    </bsdf>
+
+    <bsdf type="diffuse" id="material2">
+            <spectrum name="reflectance" type="irregular">
+	            <string name="wavelengths" value="380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780"/>
+	            <string name="values" value="0.67145, 0.717173, 0.736495, 0.739373, 0.732254, 0.711614, 0.675534, 0.629306, 0.57657, 0.515548, 0.460137, 0.403414, 0.358167, 0.313636, 0.284462, 0.262666, 0.248923, 0.243088, 0.251198, 0.280987, 0.360106, 0.493501, 0.650565, 0.788013, 0.868429, 0.908018, 0.924989, 0.931913, 0.93708, 0.93984, 0.942963, 0.942972, 0.945485, 0.946338, 0.944112, 0.94675, 0.946269, 0.948812, 0.947316, 0.944986, 0.948645"/>
+            </spectrum>
+    </bsdf>
+
+    <shape type="ply" id="bunny">
+        <string name="filename" value="meshes/bunny.ply"/>
+        <transform name="to_world">
+            <scale value="20"/>
+            <rotate x="1" angle="90"/>
+            <translate x="-2"/>
+        </transform>
+        <ref id="material1"/>
     </shape>
 
-    <shape type="instance">
-        <ref id="geo_group"/>
+    <shape type="obj" id="sphere">
+        <string name="filename" value="meshes/sphere.obj"/>
+        <transform name="to_world">
+            <scale value="0.5"/>
+            <translate x="-0.1"/>
+            <translate y="1"/>
+            <scale value="5"/>
+        </transform>
+        <ref id="material2"/>
     </shape>
 
-    <emitter type="point" id="light1">
-        <point name="position" x="3" y="-10.0" z="6.0"/>
-        <rgb name="intensity" value="1000.0"/>
+    <emitter type="area" id="light1">
+        <rgb name="radiance" value="300"/>
     </emitter>
 
-    <emitter type="point" id="light2">
-        <point name="position" x="-3" y="-10.0" z="-2.0"/>
-        <rgb name="intensity" value="1000.0"/>
-    </emitter>
+    <emitter type="directional" id="light2">
+		<vector name="direction" value="1.0, 10.0, 1.0"/>
+		<rgb name="irradiance" value="4.0"/>
+	</emitter>
 </scene>
