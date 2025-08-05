@@ -2,7 +2,10 @@
     <default name="spp" value="256"/>
     <default name="res" value="256"/>
 
-    <integrator type='direct'/>
+    <integrator type="aov">
+        <string name="aovs" value="albedo,sh_normal,depth,position"/>
+        <integrator type="path" name="nested"/>
+    </integrator>
 
     <sensor type="perspective" id="sensor">
         <transform name="to_world">
