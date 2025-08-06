@@ -3,8 +3,8 @@
     <default name="res" value="256"/>
 
     <integrator type="aov">
-        <string name="aovs" value='albedo:sh_normal:depth:position'/>
-        <integrator type="path" name="nested"/>
+        <string name="aovs" value="albedo:albedo, sh_normal:sh_normal,depth:depth, position:position"/>
+        <integrator type="path" name="image"/>
     </integrator>
 
     <sensor type="perspective" id="sensor">
@@ -18,8 +18,6 @@
         </sampler>
         <film type="hdrfilm">
             <rfilter type="gaussian"/>
-            <integer name="width"  value="$res"/>
-            <integer name="height" value="$res"/>
         </film>
     </sensor>
 
@@ -55,6 +53,7 @@
             <rotate y="1" angle="220"/>
             <translate x="1.3"/>
             <translate y="1.0"/>
+            <translate z = "1.2"/>
         </transform>
         <ref id="material2"/>
     </shape>
