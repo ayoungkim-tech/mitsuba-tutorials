@@ -18,6 +18,8 @@
         </sampler>
         <film type="hdrfilm">
             <rfilter type="gaussian"/>
+            <integer name="width" value="80"/>
+            <integer name="height" value="64"/>
         </film>
     </sensor>
 
