@@ -5,6 +5,7 @@
 *.png
 *.jpg
 *.ply
+*.Identifier
 
 # Add back the files related to the scene data
 !scenes/textures/*.exr
