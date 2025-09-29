@@ -3,7 +3,7 @@
     <default name="res" value="256"/>
 
     <integrator type="aov">
-        <string name="aovs" value="rgb_albedo:albedo, spec_albedo:spectral_albedo, sh_normal:sh_normal,depth:depth, position:position"/>
+        <string name="aovs" value="rgb_albedo:albedo, spec_albedo:spectral_albedo, spec_image:spectral_radiance, sh_normal:sh_normal,depth:depth, position:position"/>
         <integrator type="path" name="image"/>
     </integrator>
 
